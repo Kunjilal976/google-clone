@@ -1,7 +1,9 @@
-import React from 'react'
+import HomeHeader from '@/components/HomeHeader'
 
-export default function page() {
+export default function Home() {
   return (
-    <div>page</div>
+    <>
+    <HomeHeader/>
+    </>
   )
 }
